@@ -1,4 +1,45 @@
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1 span {
+  color: orange;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+section {
+  display: flex;
+}
+
+#top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding: 40px;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.link-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
